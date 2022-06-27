@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch a Sketch</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">Use your mouse to create a masterpiece</div>
+
+        <div id="content">
+            <div id="controls">
+                <button class="control-button" id="black">Black</button>
+                <button class="control-button" id="red">Red</button>
+                <button class="control-button" id="rainbow">Rainbow</button>
+                <button class="control-button" id="clear">Clear All</button>
+
+                <div id="slider-elements">
+                    <input type="range" min="2" max="99" value="20" id="slider">
+                    <div id="slider-display"></div>
+                </div>
+            </div>
+
+            <div id="board"></div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer-text">Made by Jamie Brine</div>
+        <a href="https://github.com/jamiebrine"><img id="git-logo" src="github-mark.png"></a>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
